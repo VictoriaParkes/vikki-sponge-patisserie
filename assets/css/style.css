@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -42,7 +43,7 @@ h2.logo {
     line-height: 75px;
 }
 
-nav > ul {
+nav>ul {
     text-align: right;
 }
 
@@ -64,6 +65,8 @@ nav > ul {
 .active {
     border-bottom: 1px solid red;
 }
+
+/* hero image */
 
 #main-image {
     height: 600px;
@@ -91,23 +94,48 @@ nav > ul {
     position: absolute;
 }
 
-#about {
-    margin: 25px 50px;
+/* about */
+
+/* Style the container/contact section */
+.container {
+    padding: 10px;
 }
 
-#about-bakery {
+/* Create two columns that float next to eachother */
+.column-66 {
+    float: left;
+    width: 66%;
+    margin-top: 3px;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.column-33 {
+    float: left;
+    width: 33%;
+    margin-top: 3px;
+    padding: 20px;
     background-color: pink;
 }
 
-#about-afternoon-tea {
-    background-color: orange;
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-#about-celebration-cakes {
-    background-color: purple;
-}
-
-#about-bakery > img {
-    width: 30%;
+.small-column img {
+    width: 100%;
     border-radius: 25px;
+}
+
+/* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+@media screen and (max-width: 900px) {
+
+    .column-66,
+    .column-33 {
+        width: 100%;
+        text-align: center;
+    }
 }
