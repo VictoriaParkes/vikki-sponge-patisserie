@@ -65,3 +65,9 @@ nav > ul {
 .active {
     border-bottom: 1px solid red;
 }
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/victoria-sponge.jpg') no-repeat center center;
+}
