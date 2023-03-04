@@ -90,3 +90,25 @@ nav > ul {
 
     position: absolute;
 }
+
+#about {
+    margin: 25px 50px;
+}
+
+#about-bakery {
+    float: left;
+    width: 66%;
+    background-color: pink;
+}
+
+#about-afternoon-tea {
+    float: right;
+    width: 66%;
+    background-color: orange;
+}
+
+#about-celebration-cakes {
+    float: left;
+    width: 66%;
+    background-color: purple;
+}
