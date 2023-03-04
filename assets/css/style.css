@@ -78,7 +78,7 @@ nav>ul {
     font-family: Trirong, sans-serif;
     letter-spacing: 3px;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 35px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
@@ -92,6 +92,13 @@ nav>ul {
     left: 25px;
 
     position: absolute;
+}
+
+#decor {
+    height: 30px;
+    width: 400px;
+    background: url(../images/decor.png) no-repeat center center;
+    background-size: contain;
 }
 
 /* about */
