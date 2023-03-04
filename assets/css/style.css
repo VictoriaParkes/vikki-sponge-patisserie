@@ -16,19 +16,20 @@ h1 {
     font-family: Trirong, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    text-align: center;
-}
-
-h2.logo {
-    font-family: Trirong, sans-serif;
-    text-align: center;
-    letter-spacing: 3px;
 }
 
 #logo {
     width: 25%;
     height: 75px;
     float: left;
+    text-align: center;
+    background-color: green;
+}
+
+h2.logo {
+    font-family: Trirong, sans-serif;
+    letter-spacing: 3px;
+    line-height: 30%;
 }
 
 #logo a {
