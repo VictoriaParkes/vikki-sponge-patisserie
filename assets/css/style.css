@@ -96,19 +96,18 @@ nav > ul {
 }
 
 #about-bakery {
-    float: left;
-    width: 66%;
     background-color: pink;
 }
 
 #about-afternoon-tea {
-    float: right;
-    width: 66%;
     background-color: orange;
 }
 
 #about-celebration-cakes {
-    float: left;
-    width: 66%;
     background-color: purple;
+}
+
+#about-bakery > img {
+    width: 30%;
+    border-radius: 25px;
 }
