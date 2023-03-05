@@ -143,6 +143,10 @@ img {
     border-radius: 25px;
 }
 
+#testimomials {
+    text-align: center;
+}
+
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
 @media screen and (max-width: 900px) {
 
