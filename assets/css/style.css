@@ -131,6 +131,14 @@ nav>ul {
     background-color: pink;
 }
 
+.column-50 {
+    float: left;
+    width: 50%;
+    margin-top: 3px;
+    padding: 20px;
+    background-color: pink;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -145,6 +153,23 @@ img {
 
 #testimomials {
     text-align: center;
+}
+
+footer {
+    height: 150px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media > li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 200%;
+    margin: 0 10% 0;
 }
 
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
