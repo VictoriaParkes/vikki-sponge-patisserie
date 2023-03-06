@@ -129,13 +129,6 @@ nav>ul {
     background-color: pink;
 }
 
-.column-50 {
-    float: left;
-    width: 50%;
-    margin-top: 3px;
-    background-color: lightgreen;
-}
-
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -150,6 +143,31 @@ img {
 
 #testimomials {
     text-align: center;
+}
+
+.newsletter {
+    height: 75px;
+    background-color: aquamarine;
+}
+
+.sign-up-form {
+    text-align: center;
+}
+
+.text-input {
+    background: transparent;
+    color: black;
+    height: 25px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 100%;
+    background-color: blue;
+    color: white;
 }
 
 footer {
@@ -167,28 +185,7 @@ footer {
 
 .social-media i {
     font-size: 200%;
-    margin: 0 10% 0;
-}
-
-.sign-up-form {
-    text-align: right;
-    margin-right: 10%;
-}
-
-.text-input {
-    background: transparent;
-    color: black;
-    height: 25px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-
-.sign-up-button {
-    border-radius: 5px;
-    text-align: center;
-    font-size: 100%;
-    background-color: blue;
-    color: white;
+    margin: 20px 10%;
 }
 
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
