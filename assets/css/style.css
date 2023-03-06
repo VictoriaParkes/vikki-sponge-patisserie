@@ -111,22 +111,24 @@ nav>ul {
 
 /* Style the container/contact section */
 .container {
-    padding: 10px;
+    padding: 0 50px 0;
 }
 
 /* Create two columns that float next to eachother */
 .column-66 {
     float: left;
+    min-height: 300px;
     width: 66%;
-    margin-top: 3px;
-    background-color: aqua;
+    padding: 20px 10px 20px;
+    /* background-color: aqua; */
 }
 
 .column-33 {
     float: left;
+    min-height: 300px;
     width: 33%;
-    margin-top: 3px;
-    background-color: pink;
+    padding: 20px 10px 20px;
+    /* background-color: pink; */
 }
 
 /* Clear floats after the columns */
@@ -137,7 +139,8 @@ nav>ul {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 300px;
     border-radius: 25px;
 }
 
@@ -145,12 +148,20 @@ img {
     text-align: center;
 }
 
+.review-33 {
+    float: left;
+    min-height: 150px;
+    width: 33%;
+    margin-top: 3px;
+    /* background-color: pink; */
+}
+
 .review {
 padding: 10px;}
 
 .newsletter {
     height: 150px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .sign-up-form {
@@ -198,7 +209,7 @@ footer {
 @media screen and (max-width: 900px) {
 
     .column-66,
-    .column-33 {
+    .column-33, .review-33 {
         width: 100%;
         text-align: center;
     }
