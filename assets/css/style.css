@@ -146,15 +146,17 @@ img {
 }
 
 .newsletter {
-    height: 75px;
+    height: 150px;
     background-color: aquamarine;
 }
 
 .sign-up-form {
     text-align: center;
+    padding-top: 60px;
 }
 
 .text-input {
+    margin: 0 5px;
     background: transparent;
     color: black;
     height: 25px;
@@ -163,6 +165,7 @@ img {
 }
 
 .sign-up-button {
+    height: 25px;
     border-radius: 5px;
     text-align: center;
     font-size: 100%;
