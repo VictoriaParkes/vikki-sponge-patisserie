@@ -156,12 +156,24 @@
     </section>
     <section>
         <div class="newsletter">
+            <h3 class="sign-up">Sign up for our newsletter</h3>
             <form action="https://formdump.codeinstitute.net/" method="post" class="sign-up-form">
-                <label for="sign-up">Sign up for our newsletter:</label>
-                <input type="text" id="sign-up" name="name" placeholder="Enter name" class="text-input" required>
-                <input type="email" name="email_address" placeholder="Enter email address" class="text-input" required>
-                <input type="submit" value="Sign Up" class="sign-up-button">
+                <div class="nl-row">
+                    <div class="nl-name-col">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter name" class="nl-name-input" required>
+                    </div>
+                    <div class="nl-email-col">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email_address" placeholder="Enter email address"
+                            class="nl-email-input" required>
+                    </div>
+                    <div class="nl-submit-col">
+                        <input type="submit" value="Sign Up" class="sign-up-button">
+                    </div>
             </form>
+
+        </div>
         </div>
     </section>
     <footer>

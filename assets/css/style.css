@@ -157,19 +157,45 @@ img {
 }
 
 .review {
-padding: 10px;}
+    padding: 10px;
+}
 
 .newsletter {
     height: 150px;
     /* background-color: aquamarine; */
 }
 
-.sign-up-form {
+.sign-up {
     text-align: center;
-    padding-top: 60px;
+    padding: 30px 0 10px;
 }
 
-.text-input {
+.sign-up-form {
+    max-width: fit-content;
+    margin: auto;
+}
+
+.nl-name-col {
+    float: left;
+    width: fit-content;
+    text-align: right;
+    background-color: lightsalmon;
+}
+
+.nl-email-col {
+    float: left;
+    width: fit-content;
+    background-color: lightgreen;
+}
+
+.nl-submit-col {
+    float: left;
+    width: fit-content;
+    background-color: pink;
+}
+
+.nl-name-input,
+.nl-email-input {
     margin: 0 5px;
     background: transparent;
     color: black;
@@ -209,7 +235,8 @@ footer {
 @media screen and (max-width: 900px) {
 
     .column-66,
-    .column-33, .review-33 {
+    .column-33,
+    .review-33 {
         width: 100%;
         text-align: center;
     }
