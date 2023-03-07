@@ -19,6 +19,10 @@ h1 {
     letter-spacing: 3px;
 }
 
+h3 {
+    font-family: Trirong, sans-serif;
+}
+
 #logo {
     width: 500px;
     height: 75px;
@@ -234,12 +238,16 @@ footer {
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
 
 @media screen and (max-width: 600px) {
-    .nl-name-col, .nl-email-col, .nl-submit-col {
+
+    .nl-name-col,
+    .nl-email-col,
+    .nl-submit-col {
         width: 100%;
         text-align: center;
     }
 
-    .nl-name, .nl-email {
+    .nl-name,
+    .nl-email {
         margin: auto;
         width: 300px;
     }
