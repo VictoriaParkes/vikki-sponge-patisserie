@@ -160,13 +160,18 @@
             <form action="https://formdump.codeinstitute.net/" method="post" class="sign-up-form">
                 <div class="nl-row">
                     <div class="nl-name-col">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Enter name" class="nl-name-input" required>
+                        <div class="nl-name">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Enter name" class="nl-name-input"
+                                required>
+                        </div>
                     </div>
                     <div class="nl-email-col">
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email_address" placeholder="Enter email address"
-                            class="nl-email-input" required>
+                        <div class="nl-name">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email_address" placeholder="Enter email address"
+                                class="nl-email-input" required>
+                        </div>
                     </div>
                     <div class="nl-submit-col">
                         <input type="submit" value="Sign Up" class="sign-up-button">
