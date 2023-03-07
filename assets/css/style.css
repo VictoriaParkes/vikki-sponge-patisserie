@@ -119,21 +119,24 @@ nav>ul {
 }
 
 /* Create two columns that float next to eachother */
-.column-66 {
+.col-about {
     float: left;
-    min-height: 300px;
-    width: 66%;
+    text-align: center;
+    height: 300px;
+    width: 60%;
     padding: 20px 10px 20px;
     /* background-color: aqua; */
 }
 
-.column-33 {
+.col-about-img {
     float: left;
-    min-height: 300px;
-    width: 33%;
+    text-align: center;
+    height: 300px;
+    width: 40%;
     padding: 20px 10px 20px;
-    /* background-color: pink; */
+    /* background-color: aqua; */
 }
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -142,9 +145,22 @@ nav>ul {
     clear: both;
 }
 
+.col-about div {
+    height: 90%;
+    margin: auto;
+}
+
+.col-about .right-about {
+    text-align: right;
+}
+
+.col-about .left-about {
+    text-align: left;
+}
+
 img {
     max-width: 100%;
-    max-height: 300px;
+    max-height: 100%;
     border-radius: 25px;
 }
 
@@ -152,7 +168,7 @@ img {
     text-align: center;
 }
 
-.review-33 {
+.col-review {
     float: left;
     min-height: 150px;
     width: 33%;
@@ -179,20 +195,20 @@ img {
     margin: auto;
 }
 
-.nl-name-col {
+.col-nl-name {
     float: left;
     width: fit-content;
     text-align: right;
     background-color: lightsalmon;
 }
 
-.nl-email-col {
+.col-nl-email {
     float: left;
     width: fit-content;
     background-color: lightgreen;
 }
 
-.nl-submit-col {
+.col-nl-submit {
     float: left;
     width: fit-content;
     background-color: pink;
@@ -274,9 +290,8 @@ footer {
         margin: 3px 0 3px;
     }
 
-    .column-66,
-    .column-33,
-    .review-33 {
+    .col-about,
+    .col-review {
         width: 100%;
         min-height: auto;
         text-align: center;
@@ -285,9 +300,9 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-    .nl-name-col,
-    .nl-email-col,
-    .nl-submit-col {
+    .col-nl-name,
+    .col-nl-email,
+    .col-nl-submit {
         width: 100%;
         text-align: center;
     }
