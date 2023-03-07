@@ -259,6 +259,7 @@ footer {
     .column-33,
     .review-33 {
         width: 100%;
+        min-height: auto;
         text-align: center;
     }
 }
