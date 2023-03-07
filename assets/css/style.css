@@ -237,6 +237,52 @@ footer {
 
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
 
+@media screen and (max-width: 950px) {
+
+    header {
+        height: 75px;
+    }
+
+    #logo {
+        float: none;
+        margin: auto;
+    }
+
+    #navigation {
+        width: 100%;
+        background-color: white;
+        border-top: 1px solid black;
+        position: absolute;
+        top: 150px;
+    }
+
+    nav>ul {
+        text-align: center;
+    }
+
+    #cover-text {
+        height: 75px;
+        width: 100%;
+        left: 0;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        padding: 0;
+    }
+
+    #decor {
+        width: 100%;
+        margin: 3px 0 3px;
+    }
+
+    .column-66,
+    .column-33,
+    .review-33 {
+        width: 100%;
+        min-height: auto;
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 600px) {
 
     .nl-name-col,
@@ -250,16 +296,6 @@ footer {
     .nl-email {
         margin: auto;
         width: 300px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-
-    .column-66,
-    .column-33,
-    .review-33 {
-        width: 100%;
-        min-height: auto;
-        text-align: center;
+        border-radius: 0;
     }
 }
