@@ -123,7 +123,7 @@ nav>ul {
 .col-about {
     display: table-cell;
     float: left;
-    text-align: center;
+    text-align: justify;
     height: 300px;
     width: 60%;
     padding: 20px 10px 20px;
@@ -151,14 +151,6 @@ nav>ul {
 .col-about div {
     height: 90%;
     margin: auto;
-}
-
-.col-about .right-about {
-    text-align: right;
-}
-
-.col-about .left-about {
-    text-align: left;
 }
 
 img {
@@ -294,20 +286,25 @@ footer {
         margin: 3px 0 3px;
     }
 
-    .col-about, .col-about-img,
+    .col-about,
+    .col-about-img,
     .col-review {
         width: 100%;
-        min-height: auto;
         text-align: center;
+    }
+
+    .col-about,
+    .col-about-img {
+        height: fit-content;
+    }
+
+    .col-review {
+        min-height: auto;
     }
 }
 
 /* Devices up to 768px */
-@media only screen and (max-width: 768px) {
-    .col-about, .col-about-img {
-        height: fit-content;
-    }
-}
+@media only screen and (max-width: 768px) {}
 
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
