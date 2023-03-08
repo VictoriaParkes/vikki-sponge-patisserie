@@ -256,7 +256,8 @@ footer {
 
 /* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
 
-@media screen and (max-width: 950px) {
+/* Devices up to 992px */
+@media only screen and (max-width: 992px) {
 
     header {
         height: 75px;
@@ -301,6 +302,14 @@ footer {
     }
 }
 
+/* Devices up to 768px */
+@media only screen and (max-width: 768px) {
+    .col-about, .col-about-img {
+        height: fit-content;
+    }
+}
+
+/* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
     .col-nl-name,
