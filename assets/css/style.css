@@ -115,11 +115,13 @@ nav>ul {
 
 /* Style the container/contact section */
 .container {
+    display: table;
     padding: 0 50px 0;
 }
 
 /* Create two columns that float next to eachother */
 .col-about {
+    display: table-cell;
     float: left;
     text-align: center;
     height: 300px;
@@ -129,6 +131,7 @@ nav>ul {
 }
 
 .col-about-img {
+    display: table-cell;
     float: left;
     text-align: center;
     height: 300px;
@@ -290,7 +293,7 @@ footer {
         margin: 3px 0 3px;
     }
 
-    .col-about,
+    .col-about, .col-about-img,
     .col-review {
         width: 100%;
         min-height: auto;
