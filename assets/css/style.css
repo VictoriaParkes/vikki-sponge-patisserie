@@ -256,6 +256,7 @@ footer {
     }
 
     #logo {
+        width: 100%;
         float: none;
         margin: auto;
     }
