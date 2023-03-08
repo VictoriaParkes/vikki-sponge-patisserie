@@ -273,6 +273,10 @@ footer {
         text-align: center;
     }
 
+    #navigation li {
+        margin: 0 8px 0;
+    }
+
     #cover-text {
         height: 75px;
         width: 100%;
