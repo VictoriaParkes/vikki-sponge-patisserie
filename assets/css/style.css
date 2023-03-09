@@ -1,5 +1,7 @@
+/* Import url for google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Trirong:wght@300&display=swap');
 
+/* Universal style selector to set initial styles for all elements */
 * {
     margin: 0;
     padding: 0;
@@ -7,12 +9,12 @@
     box-sizing: border-box;
 }
 
+/* Style rule for body elements */
 body {
     font-family: "Open Sans", sans-serif;
 }
 
-/* headings and logo */
-
+/* Style rules for headings and logo to set font and text properties */
 h1 {
     font-family: Trirong, sans-serif;
     text-transform: uppercase;
@@ -23,6 +25,7 @@ h3 {
     font-family: Trirong, sans-serif;
 }
 
+/* Stle rules for logo to set element size and position */
 #logo {
     width: 500px;
     height: 75px;
@@ -45,7 +48,6 @@ h2.logo {
 }
 
 /* Navigation */
-
 #navigation {
     letter-spacing: 3px;
     line-height: 75px;
@@ -74,14 +76,16 @@ nav>ul {
     border-bottom: 1px solid red;
 }
 
-/* hero image */
-
+/* HERO IMAGE */
+/* Style rule to display the hero image and set size and position */
 #main-image {
     height: 600px;
     width: 100%;
     background: url('../images/victoria-sponge.jpg') no-repeat center center;
 }
 
+/* COVER TEXT */
+/* */
 #cover-text {
     font-family: Trirong, sans-serif;
     font-size: 20px;
@@ -103,6 +107,7 @@ nav>ul {
     position: absolute;
 }
 
+/* Style rule to display decorative image and set size and position */
 #decor {
     height: 30px;
     width: 400px;
@@ -111,15 +116,14 @@ nav>ul {
     background-size: contain;
 }
 
-/* about */
-
-/* Style the container/contact section */
+/* ABOUT */
+/* Style rule to make elements act like a table for positioning */
 .container {
     display: table;
     padding: 0 50px 0;
 }
 
-/* Create two columns that float next to eachother */
+/* Style rules to create two columns that float next to eachother for about text and respective images */
 .col-about {
     display: table-cell;
     float: left;
@@ -141,28 +145,33 @@ nav>ul {
 }
 
 
-/* Clear floats after the columns */
+/* Style rule to clear floats after the columns to display subsequent elements below the row */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
+/* Style rule to horizontally center about content on the page */
 .col-about div {
     height: 90%;
     margin: auto;
 }
 
+/* Style rule to size the images to fit the space in the column and set curved corners */
 img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 25px;
 }
 
+/* TESTIMONIALS */
+/* Style rule to center testimonials text */
 #testimomials {
     text-align: center;
 }
 
+/* Style rule to */
 .col-review {
     float: left;
     min-height: 150px;
@@ -171,9 +180,11 @@ img {
     /* background-color: pink; */
 }
 
+/* Style rule to */
 .review {
     padding: 10px;
 }
+
 
 .nl {
     height: 150px;
