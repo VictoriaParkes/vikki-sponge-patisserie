@@ -175,7 +175,7 @@ img {
     padding: 10px;
 }
 
-.newsletter {
+.nl {
     height: 150px;
     /* background-color: aquamarine; */
 }
@@ -190,27 +190,29 @@ img {
     margin: auto;
 }
 
-.col-nl-name {
+.col-nl-label {
     float: left;
     width: fit-content;
+    height: 25px;
     text-align: right;
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
 }
 
-.col-nl-email {
+.col-nl-input {
     float: left;
     width: fit-content;
-    background-color: lightgreen;
+    height: 25px;
+    /* background-color: lightgreen; */
 }
 
 .col-nl-submit {
     float: left;
     width: fit-content;
-    background-color: pink;
+    height: 25px;
+    /* background-color: pink; */
 }
 
-.nl-name-input,
-.nl-email-input {
+.nl-input {
     margin: 0 5px;
     background: transparent;
     color: black;
@@ -320,17 +322,35 @@ footer {
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
-    .col-nl-name,
-    .col-nl-email,
+    .sign-up {
+        padding: 10px 0 10px;
+    }
+
+    .col-nl-label {
+        float: left;
+        width: 38%;
+        height: 30px;
+        text-align: right;
+    }
+
+    .col-nl-input {
+        float: left;
+        width: 62%;
+        height: 30px;
+    }
+
+    .col-nl-submit {
+        float: left;
+        width: 100%;
+        height: 30px;
+    }
+
     .col-nl-submit {
         width: 100%;
         text-align: center;
     }
 
-    .nl-name,
-    .nl-email {
-        margin: auto;
-        width: 300px;
-        border-radius: 0;
+    .nl-input {
+        margin-left: 5px;
     }
 }
