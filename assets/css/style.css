@@ -171,7 +171,7 @@ img {
     text-align: center;
 }
 
-/* Style rule to */
+/* Style rule to create three columns that float next to each other for testimonial content*/
 .col-review {
     float: left;
     min-height: 150px;
@@ -180,27 +180,31 @@ img {
     /* background-color: pink; */
 }
 
-/* Style rule to */
+/* Style rule to add padding*/
 .review {
     padding: 10px;
 }
 
-
+/* NEWSLETTER SIGN-UP */
+/* Style rule to */
 .nl {
     height: 150px;
     /* background-color: aquamarine; */
 }
 
+/* Style rule to */
 .sign-up {
     text-align: center;
     padding: 30px 0 10px;
 }
 
+/* Style rule to */
 .sign-up-form {
     max-width: fit-content;
     margin: auto;
 }
 
+/* Style rules to */
 .col-nl-label {
     float: left;
     width: fit-content;
@@ -223,6 +227,7 @@ img {
     /* background-color: pink; */
 }
 
+/* Style rule to */
 .nl-input {
     margin: 0 5px;
     background: transparent;
@@ -232,6 +237,7 @@ img {
     border-radius: 5px;
 }
 
+/* Style rule to */
 .sign-up-button {
     height: 25px;
     border-radius: 5px;
@@ -241,29 +247,35 @@ img {
     color: white;
 }
 
+/* FOOTER */
+/* Style rule to */
 footer {
     height: 75px;
     background-color: lightgoldenrodyellow;
 }
 
+/* Style rule to */
 .social-media {
     text-align: center;
 }
 
+/* Style rule to */
 .social-media>li {
     display: inline;
 }
 
+/* Style rule to */
 .social-media i {
     font-size: 200%;
     margin: 20px 10%;
 }
 
-/* Add responsiveness - make the columns appear on top of each other instead of next to each other on small screens */
+/* Add responsiveness */
 
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
 
+    /* Style rules to position logo accross the whole width of the page */
     header {
         height: 75px;
     }
@@ -274,6 +286,7 @@ footer {
         margin: auto;
     }
 
+    /* Style rule to position navigation links below cover text and add border to separate*/
     #navigation {
         width: 100%;
         background-color: white;
@@ -282,14 +295,17 @@ footer {
         top: 150px;
     }
 
+    /* Style rule to center navigation links */
     nav>ul {
         text-align: center;
     }
 
+    /* Style rule to set left and right margins on navigation links */
     #navigation li {
         margin: 0 8px 0;
     }
 
+    /* Style rule to set size and position of cover text, and remove curved bottom corners */
     #cover-text {
         height: 75px;
         width: 100%;
@@ -299,11 +315,13 @@ footer {
         padding: 0;
     }
 
+    /* Style rule to set size and position of decorative element */
     #decor {
         width: 100%;
         margin: 3px 0 3px;
     }
 
+    /* Style rule to make the columns appear on top of each other instead of next to each other on small screens */
     .col-about,
     .col-about-img,
     .col-review {
@@ -311,9 +329,10 @@ footer {
         text-align: center;
     }
 
+    /* Style rules to make the column height responsive to height of content */
     .col-about,
     .col-about-img {
-        height: fit-content;
+        height: auto;
     }
 
     .col-review {
@@ -324,6 +343,7 @@ footer {
 /* Devices up to 768px */
 @media only screen and (max-width: 768px) {
 
+    /* Style rule to make the font size of cover-text 2.5% of screen width */
     #cover-text {
         font-size: 2.5vw;
         padding: 0 3px 0;
@@ -333,10 +353,12 @@ footer {
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
 
+    /* Style rule to set top and bottom padding of newsletter sign-up heading */
     .sign-up {
         padding: 10px 0 10px;
     }
 
+    /* Style rules to make */
     .col-nl-label {
         float: left;
         width: 38%;
