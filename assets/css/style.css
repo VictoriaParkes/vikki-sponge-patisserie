@@ -185,6 +185,11 @@ img {
     padding: 10px;
 }
 
+/* Style rule to set color of stars to gold */
+.star-color {
+    color: gold;
+}
+
 /* NEWSLETTER SIGN-UP */
 /* Style rule to */
 .nl {
