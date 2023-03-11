@@ -191,6 +191,27 @@ img {
     /* background-color: pink; */
 }
 
+.left-review {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.center-review {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.right-review {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
 /* Style rule to add padding*/
 .review {
     padding: 10px;
@@ -212,7 +233,7 @@ img {
 /* Style rule to center sign-up-form content */
 .sign-up-form .container {
     margin: auto;
-  }
+}
 
 /* Style rule to set size, position and color of newsletter header */
 .nl-header {
@@ -226,25 +247,27 @@ img {
 }
 
 /* Style the input elements and the submit button */
-input[type=text], input[type=email], input[type=submit] {
+input[type=text],
+input[type=email],
+input[type=submit] {
     width: 100%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+}
 
 /* Style the submit button */
 input[type=submit] {
     background-color: #04AA6D;
     color: white;
     border: none;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     opacity: 0.8;
-  }
+}
 
 /* FOOTER */
 /* Style rule to */
