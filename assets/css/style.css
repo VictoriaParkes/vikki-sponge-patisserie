@@ -191,27 +191,6 @@ img {
     /* background-color: pink; */
 }
 
-.left-review {
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.center-review {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-
-.right-review {
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
 /* Style rule to add padding*/
 .review {
     padding: 10px;
@@ -364,21 +343,6 @@ footer {
 
     .col-review {
         min-height: auto;
-    }
-
-    .left-review {
-        border: none;
-        border-radius: 0;
-    }
-
-    .center-review {
-        border: none;
-        border-radius: 0;
-    }
-
-    .right-review {
-        border: none;
-        border-radius: 0;
     }
 }
 
