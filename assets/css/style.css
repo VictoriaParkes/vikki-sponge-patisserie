@@ -41,8 +41,8 @@ h3 {
 
 /* Style rule to display decorative element and set size and position */
 .decor {
+    margin: auto;
     height: 30px;
-    width: 400px;
     background: url(../images/decor.png) no-repeat center center;
     background-size: contain;
 }
