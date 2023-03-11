@@ -178,6 +178,7 @@ img {
 /* Style rule to center testimonials text */
 #testimomials {
     text-align: center;
+    height: 300px;
 }
 
 /* Style rule to create three columns that float next to each other for testimonial content*/
