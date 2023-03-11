@@ -60,6 +60,13 @@ h3 {
     text-align: center;
 }
 
+.logo-background {
+    width: 400px;
+    height: 75px;
+    margin: 0 50px;
+    background-color: white;
+}
+
 h2.logo {
     font-family: Trirong, sans-serif;
     font-size: 30px;
@@ -78,10 +85,12 @@ h2.logo {
 #navigation {
     letter-spacing: 3px;
     line-height: 75px;
+    background-color: navy;
 }
 
 nav>ul {
     text-align: right;
+    color: white;
 }
 
 #navigation li {
@@ -252,7 +261,7 @@ input[type=submit]:hover {
 /* Style rule to */
 footer {
     height: 75px;
-    background-color: lightgoldenrodyellow;
+    background-color: navy;
 }
 
 /* Style rule to */
@@ -269,6 +278,7 @@ footer {
 .social-media i {
     font-size: 200%;
     margin: 20px 10%;
+    color: white;
 }
 
 /* RESPONSIVENESS */
