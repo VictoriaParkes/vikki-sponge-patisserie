@@ -179,6 +179,7 @@ img {
 #testimomials {
     text-align: center;
     height: 300px;
+    padding: 75px 0;
 }
 
 /* Style rule to create three columns that float next to each other for testimonial content*/
