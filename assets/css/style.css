@@ -14,6 +14,20 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Style rules used by sections containing columns */
+/* Style rule to make elements act like a table for positioning */
+.container {
+    display: table;
+    padding: 0 50px 0;
+}
+
+/* Style rule to clear floats after the columns to display subsequent elements below the row */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Style rules for headings and logo to set font and text properties */
 h1 {
     font-family: Trirong, sans-serif;
@@ -23,6 +37,19 @@ h1 {
 
 h3 {
     font-family: Trirong, sans-serif;
+}
+
+/* Style rule to display decorative element and set size and position */
+.decor {
+    height: 30px;
+    width: 400px;
+    background: url(../images/decor.png) no-repeat center center;
+    background-size: contain;
+}
+
+/* Style rule to display element upside down */
+.invert {
+    transform: scaleY(-1);
 }
 
 /* Stle rules for logo to set element size and position */
@@ -107,22 +134,12 @@ nav>ul {
     position: absolute;
 }
 
-/* Style rule to display decorative image and set size and position */
-#decor {
-    height: 30px;
-    width: 400px;
+/* Style rule to add margin below decorative element */
+#cover-text .decor {
     margin-bottom: 10px;
-    background: url(../images/decor.png) no-repeat center center;
-    background-size: contain;
 }
 
 /* ABOUT */
-/* Style rule to make elements act like a table for positioning */
-.container {
-    display: table;
-    padding: 0 50px 0;
-}
-
 /* Style rules to create two columns that float next to eachother for about text and respective images */
 .col-about {
     display: table-cell;
@@ -142,14 +159,6 @@ nav>ul {
     width: 40%;
     padding: 20px 10px 20px;
     /* background-color: aqua; */
-}
-
-
-/* Style rule to clear floats after the columns to display subsequent elements below the row */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /* Style rule to horizontally center about content on the page */
@@ -192,65 +201,43 @@ img {
 
 /* NEWSLETTER SIGN-UP */
 /* Style rule to */
-.nl {
-    height: 150px;
-    /* background-color: aquamarine; */
-}
-
-/* Style rule to */
-.sign-up {
-    text-align: center;
-    padding: 30px 0 10px;
-}
-
-/* Style rule to */
 .sign-up-form {
+    height: 300px;
     max-width: fit-content;
     margin: auto;
 }
 
-/* Style rules to */
-.col-nl-label {
-    float: left;
-    width: fit-content;
-    height: 25px;
-    text-align: right;
-    /* background-color: lightsalmon; */
-}
-
-.col-nl-input {
-    float: left;
-    width: fit-content;
-    height: 25px;
-    /* background-color: lightgreen; */
-}
-
-.col-nl-submit {
-    float: left;
-    width: fit-content;
-    height: 25px;
-    /* background-color: pink; */
-}
-
-/* Style rule to */
-.nl-input {
-    margin: 0 5px;
-    background: transparent;
-    color: black;
-    height: 25px;
-    border: 1px solid red;
-    border-radius: 5px;
-}
-
-/* Style rule to */
-.sign-up-button {
-    height: 25px;
-    border-radius: 5px;
+/* Style rule to set size, position and color of newsletter header */
+.nl-header {
+    width: 100%;
     text-align: center;
-    font-size: 100%;
-    background-color: blue;
-    color: white;
+    /* background-color: aquamarine; */
 }
+
+.sign-up-form .decor {
+    margin: auto;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=email], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
 
 /* FOOTER */
 /* Style rule to */
@@ -275,7 +262,7 @@ footer {
     margin: 20px 10%;
 }
 
-/* Add responsiveness */
+/* RESPONSIVENESS */
 
 /* Devices up to 992px */
 @media only screen and (max-width: 992px) {
@@ -359,11 +346,10 @@ footer {
 @media screen and (max-width: 600px) {
 
     /* Style rule to set top and bottom padding of newsletter sign-up heading */
-    .sign-up {
+    /* .sign-up {
         padding: 10px 0 10px;
     }
 
-    /* Style rules to make */
     .col-nl-label {
         float: left;
         width: 38%;
@@ -390,5 +376,5 @@ footer {
 
     .nl-input {
         margin-left: 5px;
-    }
+    } */
 }
