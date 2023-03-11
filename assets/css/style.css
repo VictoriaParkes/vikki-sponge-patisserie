@@ -207,6 +207,11 @@ img {
     margin: auto;
 }
 
+/* Style rule to center sign-up-form content */
+.sign-up-form .container {
+    margin: auto;
+  }
+
 /* Style rule to set size, position and color of newsletter header */
 .nl-header {
     width: 100%;
