@@ -176,7 +176,7 @@ img {
 
 /* TESTIMONIALS */
 /* Style rule to center testimonials text */
-#testimomials {
+#testimonials {
     text-align: center;
     height: 300px;
     padding: 75px 0;
@@ -343,6 +343,10 @@ footer {
         margin: 3px 0 3px;
     }
 
+    #testimonials {
+        padding: 0;
+    }
+
     /* Style rule to make the columns appear on top of each other instead of next to each other on small screens */
     .col-about,
     .col-about-img,
@@ -351,14 +355,30 @@ footer {
         text-align: center;
     }
 
-    /* Style rules to make the column height responsive to height of content */
+    /* Style rules to make the element height responsive to height of content */
     .col-about,
-    .col-about-img {
+    .col-about-img,
+    #testimonials {
         height: auto;
     }
 
     .col-review {
         min-height: auto;
+    }
+
+    .left-review {
+        border: none;
+        border-radius: 0;
+    }
+
+    .center-review {
+        border: none;
+        border-radius: 0;
+    }
+
+    .right-review {
+        border: none;
+        border-radius: 0;
     }
 }
 
@@ -374,6 +394,10 @@ footer {
 
 /* Devices up to 600px */
 @media screen and (max-width: 600px) {
+
+    .review {
+        font-size: 2.7vw;
+    }
 
     /* Style rule to set top and bottom padding of newsletter sign-up heading */
     /* .sign-up {
