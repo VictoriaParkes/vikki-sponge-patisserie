@@ -61,7 +61,7 @@ h3 {
 }
 
 .logo-background {
-    width: 400px;
+    max-width: 400px;
     height: 75px;
     margin: 0 50px;
     background-color: white;
@@ -127,7 +127,7 @@ nav>ul {
     font-size: 20px;
     letter-spacing: 3px;
     text-align: center;
-    padding: 30px 5px 0;
+    padding: 15px 5px 0;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 
@@ -145,7 +145,7 @@ nav>ul {
 
 /* Style rule to add margin below decorative element */
 #cover-text .decor {
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
 /* ABOUT */
@@ -294,6 +294,10 @@ footer {
     #logo {
         width: 100%;
         float: none;
+        margin: auto;
+    }
+
+    .logo-background {
         margin: auto;
     }
 
