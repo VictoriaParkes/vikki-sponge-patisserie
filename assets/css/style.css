@@ -212,10 +212,15 @@ img {
 
 /* NEWSLETTER SIGN-UP */
 /* Style rule to */
+
+#newsletter {
+    background-color: lightgrey;
+}
+
 .sign-up-form {
     height: 300px;
     width: 100%;
-    margin: auto;
+    padding: 8px;
 }
 
 /* Style rule to center sign-up-form content */
@@ -248,7 +253,7 @@ input[type=submit] {
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: navy;
     color: white;
     border: none;
 }
@@ -304,8 +309,7 @@ footer {
     /* Style rule to position navigation links below cover text and add border to separate*/
     #navigation {
         width: 100%;
-        background-color: white;
-        border-top: 1px solid black;
+        background-color: navy;
         position: absolute;
         top: 150px;
     }
