@@ -282,6 +282,14 @@ footer {
     color: white;
 }
 
+/* GALLERY */
+
+#gallery-hero-image {
+    height: 300px;
+    width: 100%;
+    background: url('../images/gallery-hero.jpg') no-repeat center center;
+}
+
 /* RESPONSIVENESS */
 
 /* Devices up to 992px */
