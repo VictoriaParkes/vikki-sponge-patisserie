@@ -14,6 +14,23 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+/* Style rules for headings and logo to set font and text properties */
+h1, h2, h3 {
+    font-family: Trirong, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    line-height: 30%;
+}
+
 /* Style rules used by sections containing columns */
 /* Style rule to make elements act like a table for positioning */
 .container {
@@ -26,17 +43,6 @@ body {
     content: "";
     display: table;
     clear: both;
-}
-
-/* Style rules for headings and logo to set font and text properties */
-h1 {
-    font-family: Trirong, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-}
-
-h3 {
-    font-family: Trirong, sans-serif;
 }
 
 /* Style rule to display decorative element and set size and position */
@@ -65,14 +71,6 @@ h3 {
     height: 75px;
     margin: 0 50px;
     background-color: white;
-}
-
-h2.logo {
-    font-family: Trirong, sans-serif;
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    line-height: 30%;
 }
 
 #logo a {
@@ -130,7 +128,6 @@ nav>ul {
     padding: 15px 5px 20px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-
 
     width: 400px;
     height: 150px;
