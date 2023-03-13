@@ -47,7 +47,6 @@ h2 {
 
 /* Style rule to display decorative element and set size and position */
 .decor {
-    margin: auto;
     height: 30px;
     background: url(../images/decor.png) no-repeat center center;
     background-size: contain;
@@ -331,10 +330,13 @@ footer {
         padding: 0;
     }
 
-    /* Style rule to set size and position of decorative element */
-    #decor {
-        width: 100%;
-        margin: 3px 0 3px;
+    /* Style rule to set size and position of decorative element */    
+    #cover-text .decor {
+        margin: 5px;
+    }
+
+    #cover-text p {
+        margin: auto;
     }
 
     #testimonials {
