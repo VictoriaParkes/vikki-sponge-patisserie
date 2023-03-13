@@ -29,7 +29,7 @@ h2 {
     font-weight: 500;
     letter-spacing: 3px;
     line-height: 30%;
-}
+} 
 
 /* Style rules used by sections containing columns */
 /* Style rule to make elements act like a table for positioning */
@@ -83,7 +83,7 @@ h2 {
 #navigation {
     letter-spacing: 3px;
     line-height: 75px;
-    background-color: navy;
+    background-color: #111e79;
 }
 
 nav>ul {
@@ -103,11 +103,11 @@ nav>ul {
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #e3b26a;
 }
 
 .active {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #e3b26a;
 }
 
 /* HERO IMAGE */
@@ -202,16 +202,16 @@ img {
     padding: 10px;
 }
 
-/* Style rule to set color of stars to gold */
+/* Style rule to set color of stars */
 .star-color {
-    color: gold;
+    color: #e3b26a;
 }
 
 /* NEWSLETTER SIGN-UP */
 /* Style rule to */
 
 #newsletter {
-    background-color: lightgrey;
+    background-color: #d7dbfe;
 }
 
 .sign-up-form {
@@ -244,13 +244,13 @@ input[type=submit] {
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #e3b26a;
     border-radius: 5px;
 }
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: navy;
+    background-color: #111e79;
     color: white;
     border: none;
 }
@@ -263,7 +263,7 @@ input[type=submit]:hover {
 /* Style rule to */
 footer {
     height: 75px;
-    background-color: navy;
+    background-color: #111e79;
 }
 
 /* Style rule to */
@@ -306,7 +306,7 @@ footer {
     /* Style rule to position navigation links below cover text and add border to separate*/
     #navigation {
         width: 100%;
-        background-color: navy;
+        background-color: #111e79;
         position: absolute;
         top: 150px;
     }
